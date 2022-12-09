@@ -14,7 +14,8 @@ async def main():
     while True:
             try:
                     content = await client.listen()
-                    print(content + '\n')
+                    print(content)
+                    print('\n')
             except Exception as e:
                     print(e)
                     break
